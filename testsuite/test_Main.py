@@ -1,4 +1,4 @@
-from simplelogger import Logger
+from justanotherlogger import Logger
 
 def test_LogTypes():
     assert Logger.DEBUG  == -1

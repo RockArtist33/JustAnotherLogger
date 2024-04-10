@@ -1,8 +1,0 @@
-README.md
-setup.py
-simplelogger/Logger.py
-simplelogger/__init__.py
-simplelogger.egg-info/PKG-INFO
-simplelogger.egg-info/SOURCES.txt
-simplelogger.egg-info/dependency_links.txt
-simplelogger.egg-info/top_level.txt

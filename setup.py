@@ -1,8 +1,8 @@
 from setuptools import find_packages, setup
 
 setup(
-    name='simplelogger',
-    packages=find_packages(include=['simplelogger']),
+    name='justanotherlogger',
+    packages=find_packages(include=['justanotherlogger']),
     version='0.0.2',
     description='My first Python library',
     author='RockArtist33',
