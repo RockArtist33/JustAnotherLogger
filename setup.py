@@ -1,10 +1,11 @@
 from setuptools import find_packages, setup
 
+
 setup(
     name='justanotherlogger',
     packages=find_packages(include=['justanotherlogger']),
     version='0.0.2',
-    description='My first Python library',
+    description='A very simple logger',
     author='RockArtist33',
     install_requires=[],
     setup_requires=['pytest-runner'],
