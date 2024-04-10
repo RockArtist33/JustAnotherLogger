@@ -6,6 +6,7 @@ INFO = 0
 NOTICE = 1
 WARN = 2
 ERROR = 3
+CRITICAL = 4
 
 class Logger:
     def __init__(self) -> None:
@@ -38,7 +39,7 @@ class Logger:
         if type < self.LogType:
             return 7
         
-        self.strtype = _determineLogType(self.LogType)
+        self.strtype = _determineLogType(type)
         if self.strtype == 8:
             return 8
         
@@ -67,6 +68,8 @@ def _determineLogType(type):
             strtype = "WARN"
         elif type == ERROR:
             strtype = "ERROR"
+        elif type == CRITICAL:
+            strtype = "CRITICAL"
         return strtype
     except:
         print("Cannot determine log error type, exiting...")
